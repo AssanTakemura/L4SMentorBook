@@ -15,6 +15,10 @@
 		1789DC372500AE63003C0D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1789DC352500AE63003C0D6B /* LaunchScreen.storyboard */; };
 		1789DC422500AE63003C0D6B /* L4SMentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DC412500AE63003C0D6B /* L4SMentorBookTests.swift */; };
 		1789DC4D2500AE63003C0D6B /* L4SMentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DC4C2500AE63003C0D6B /* L4SMentorBookUITests.swift */; };
+		1789DC5E2500AE9D003C0D6B /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789DC5B2500AE9D003C0D6B /* ryo.jpg */; };
+		1789DC5F2500AE9D003C0D6B /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789DC5C2500AE9D003C0D6B /* nagata.jpg */; };
+		1789DC602500AE9D003C0D6B /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1789DC5D2500AE9D003C0D6B /* taithi.jpg */; };
+		1789DC622500B33D003C0D6B /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1789DC612500B33D003C0D6B /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		1789DC482500AE63003C0D6B /* L4SMentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L4SMentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1789DC4C2500AE63003C0D6B /* L4SMentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L4SMentorBookUITests.swift; sourceTree = "<group>"; };
 		1789DC4E2500AE63003C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1789DC5B2500AE9D003C0D6B /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		1789DC5C2500AE9D003C0D6B /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		1789DC5D2500AE9D003C0D6B /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		1789DC612500B33D003C0D6B /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		1789DC292500AE62003C0D6B /* L4SMentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				1789DC5A2500AE9D003C0D6B /* images */,
 				1789DC2A2500AE62003C0D6B /* AppDelegate.swift */,
 				1789DC2C2500AE62003C0D6B /* SceneDelegate.swift */,
 				1789DC2E2500AE62003C0D6B /* ViewController.swift */,
+				1789DC612500B33D003C0D6B /* Mentor.swift */,
 				1789DC302500AE62003C0D6B /* Main.storyboard */,
 				1789DC332500AE63003C0D6B /* Assets.xcassets */,
 				1789DC352500AE63003C0D6B /* LaunchScreen.storyboard */,
@@ -126,6 +136,16 @@
 				1789DC4E2500AE63003C0D6B /* Info.plist */,
 			);
 			path = L4SMentorBookUITests;
+			sourceTree = "<group>";
+		};
+		1789DC5A2500AE9D003C0D6B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1789DC5B2500AE9D003C0D6B /* ryo.jpg */,
+				1789DC5C2500AE9D003C0D6B /* nagata.jpg */,
+				1789DC5D2500AE9D003C0D6B /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1789DC602500AE9D003C0D6B /* taithi.jpg in Resources */,
+				1789DC5E2500AE9D003C0D6B /* ryo.jpg in Resources */,
+				1789DC5F2500AE9D003C0D6B /* nagata.jpg in Resources */,
 				1789DC372500AE63003C0D6B /* LaunchScreen.storyboard in Resources */,
 				1789DC342500AE63003C0D6B /* Assets.xcassets in Resources */,
 				1789DC322500AE62003C0D6B /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1789DC622500B33D003C0D6B /* Mentor.swift in Sources */,
 				1789DC2F2500AE62003C0D6B /* ViewController.swift in Sources */,
 				1789DC2B2500AE62003C0D6B /* AppDelegate.swift in Sources */,
 				1789DC2D2500AE62003C0D6B /* SceneDelegate.swift in Sources */,
